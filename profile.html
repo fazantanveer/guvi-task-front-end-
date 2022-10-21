@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Guvi task</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+          
+        <div class="container">
+            <div class="panel panel-primary"> 
+                <div class="panel-heading">
+                    <h4 id="heading">Profile</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="name">Age</label>
+                        <input id="age" class="form-control" name="age" 
+                        placeholder="age" required/>
+                    </div>
+                        <div class="form-group">
+                            <label for="dob">DOB</label>
+                            <input id="dob" class="form-control" name="dob" placeholder="Date OF Birth" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="Phone">Phone</label>
+                            <input id="Phone" class="form-control" name="Phone" placeholder="Phone" required/>
+                        </div>  
+                      <label>Gender</label>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" value="female" name="gender"/>Female
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" value="male" name="gender"/>Male
+                            </label>
+                        </div>
+                        <a><button type="button" class="btn btn-success" onclick="myalert()">Submit</button></a>
+                        <script>
+                            function myalert() {
+                                alert("form submit successfully");
+                            }
+                        </script>
+                    </div>
+                   
+                </div>
+             </div>
+              
+        </div>
+    </body>
+    </html>
